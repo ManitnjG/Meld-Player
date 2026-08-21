@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Soundwave equalizer bars + FLAC high-res symbol -->
+    <!-- Equalizer bar 1 -->
+    <path
+        android:pathData="M34,44 L34,64"
+        android:strokeWidth="4"
+        android:strokeLineCap="round">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:startX="34" android:startY="64"
+                android:endX="34" android:endY="44"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#06B6D4" />
+                <item android:offset="1.0" android:color="#3B82F6" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Equalizer bar 2 -->
+    <path
+        android:pathData="M42,34 L42,74"
+        android:strokeWidth="4"
+        android:strokeLineCap="round">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:startX="42" android:startY="74"
+                android:endX="42" android:endY="34"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#06B6D4" />
+                <item android:offset="1.0" android:color="#8B5CF6" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Equalizer bar 3 (Center High) -->
+    <path
+        android:pathData="M50,26 L50,82"
+        android:strokeWidth="4.5"
+        android:strokeLineCap="round">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:startX="50" android:startY="82"
+                android:endX="50" android:endY="26"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#38BDF8" />
+                <item android:offset="1.0" android:color="#A855F7" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Equalizer bar 4 -->
+    <path
+        android:pathData="M58,32 L58,76"
+        android:strokeWidth="4"
+        android:strokeLineCap="round">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:startX="58" android:startY="76"
+                android:endX="58" android:endY="32"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#8B5CF6" />
+                <item android:offset="1.0" android:color="#EC4899" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Equalizer bar 5 -->
+    <path
+        android:pathData="M66,40 L66,68"
+        android:strokeWidth="4"
+        android:strokeLineCap="round">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:startX="66" android:startY="68"
+                android:endX="66" android:endY="40"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#A855F7" />
+                <item android:offset="1.0" android:color="#F43F5E" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Equalizer bar 6 -->
+    <path
+        android:pathData="M74,48 L74,60"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:startX="74" android:startY="60"
+                android:endX="74" android:endY="48"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#EC4899" />
+                <item android:offset="1.0" android:color="#F59E0B" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Lossless Audio Ring / Halo Accent -->
+    <path
+        android:pathData="M 54,20 A 34,34 0 0 1 88,54 A 34,34 0 0 1 54,88 A 34,34 0 0 1 20,54 A 34,34 0 0 1 54,20"
+        android:strokeWidth="2.5"
+        android:strokeColor="#40FFFFFF" />
+</vector>

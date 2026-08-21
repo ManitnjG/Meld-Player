@@ -1,0 +1,6 @@
+{
+  "name": "Meld FLAC",
+  "description": "High-fidelity music streaming client powered by SpotiFLAC audio extensions, lossless playback, synchronized lyrics, and offline downloads.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
